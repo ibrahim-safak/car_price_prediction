@@ -1,17 +1,20 @@
-# Araç Fiyat Tahmin Projesi 🚗
+# 🚗 Araç Fiyat Tahmin Projesi
 
-Bu proje, araç verilerini kullanarak fiyat tahmini yapmaktadır.  
-**Doğruluk Oranı:** %95.3
+Bu proje, araç verilerini kullanarak fiyat tahmini yapmaktadır. Model, **Linear Regression** algoritması ile eğitilmiş ve bir kullanıcı arayüzü (GUI) ile tahminler kolayca yapılabilmektedir.
 
-## Kullanılan Kütüphaneler
-- scikit-learn
+## 🎯 Amaç
+Araçların motor gücü, ağırlığı, uzunluğu gibi teknik verilerini kullanarak fiyat tahmini yapmak ve veriyi analiz ederek öngörülerde bulunmak.
+
+## 📊 Kullanılan Kütüphaneler
 - pandas
+- scikit-learn
 - numpy
-- matplotlib
+- joblib
+- tkinter (arayüz için)
 
-## Çalıştırma Adımları
+## ⚙️ Kurulum
+Projeyi klonlayarak başlayabilirsin:
 ```bash
 git clone https://github.com/ibrahim-safak/car_price_prediction.git
 cd car_price_prediction
 pip install -r requirements.txt
-python app.py
