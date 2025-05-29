@@ -11,6 +11,11 @@ Araçların motor gücü, ağırlığı, uzunluğu gibi teknik verilerini kullan
 - numpy
 - joblib
 - tkinter (arayüz için)
+## 📊 Sonuç Görselleri
+
+![Gerçek ve Tahmin Edilen Fiyatlar](./gercek_vs_tahmin.png)
+![Hata Dağılımı](./hata_dagilimi.png)
+![Model Katsayıları](./model_katsayilari.png)
 
 ## ⚙️ Kurulum
 Projeyi klonlayarak başlayabilirsin:
