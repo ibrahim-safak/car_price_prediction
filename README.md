@@ -23,3 +23,10 @@ Projeyi klonlayarak başlayabilirsin:
 git clone https://github.com/ibrahim-safak/car_price_prediction.git
 cd car_price_prediction
 pip install -r requirements.txt
+
+```
+
+Uygulamayı çalıştırmak için:
+```bash
+python app.py
+```
